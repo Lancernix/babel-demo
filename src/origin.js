@@ -1,7 +1,7 @@
-// import 'core-js';
-
-const a = [1, 2, 3, 4].at(1);
-console.log(a);
-async function name(params) {
-  console.log(params);
-}
+const obj1 = {
+  name: 'tim',
+  age: 18,
+};
+let d = obj1?.name;
+let e = obj1?.gender;
+const f = [1, 2, 3, 4].includes(5);
